@@ -1,6 +1,6 @@
 {
   "name": "@resultadosdigitais/weather-sample-lib",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Projeto de teste do time de international (Wanderlust)",
   "main": "index.js",
   "license": "MIT",
