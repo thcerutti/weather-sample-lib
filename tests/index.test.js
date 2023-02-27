@@ -5,7 +5,9 @@ describe("given the `getWheather` function", () => {
     const lat = -27.6;
     const long = -48.55;
     const result = await getWeather(lat, long);
-    console.log(result);
+
+    console.info('API call result:', result);
+
     expect(result?.current_weather?.temperature).not.toBeNull()
   });
 });
